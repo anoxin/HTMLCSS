@@ -1,0 +1,59 @@
+.name-page {
+  padding: 60px 0;
+  background-color: #F8F3F4;
+
+  &__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__title {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: $color-pink;
+
+    &_uppercase {
+      text-transform: uppercase;
+    }
+
+  }
+}
+
+.navigation {
+
+  &__items {
+    display: flex;
+  }
+
+  &__list {
+    list-style-type: none;
+  }
+
+  &__link {
+    display: block;
+    padding: 20px 0;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    text-decoration: none;
+    color: $navigator-text;
+
+
+    &:after {
+      content: "/";
+      display: inline-block;
+      padding: 0 5px;
+    }
+
+    &_active {
+      font-weight: 700;
+      color: $color-pink;
+
+      &:after {
+        content: "";
+      }
+    }
+  }
+}
