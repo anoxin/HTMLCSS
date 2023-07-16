@@ -678,6 +678,7 @@ body {
   color: #FFFFFF;
   background: #F16D7F;
   border: 1px solid #F16D7F;
+  transition: 0.3s;
 }
 .reg-form__button:hover {
   background: #FFFFFF;
@@ -844,6 +845,7 @@ body {
   font-size: 16px;
   line-height: 19px;
   color: #F26376;
+  transition: 0.3s;
 }
 .collection__cart:hover {
   background: #F16D7F;
